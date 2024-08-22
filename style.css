@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: cursive;
+    margin: 0;
+    background: linear-gradient(to bottom, rgb(171, 98, 110), rgb(116, 54, 116), rgb(49, 49, 127));
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px gainsboro;
+}
+
+.grade-box {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 10%;
+}
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #d32f2f;
+}
